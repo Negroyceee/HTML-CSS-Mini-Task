@@ -1,0 +1,132 @@
+body{
+    margin:15px;
+    background-color:#f2f4f7;
+
+}
+.facebook{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 100px 100px 0 100px ;
+    
+}
+.fb-logo img{
+    display: flex;
+    width: 300px;
+    margin: 0;
+}
+.fb-logo{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 200px 350px;
+   
+
+
+}
+
+.fb-qoute{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin: 0 0 0 27px;
+}
+
+.login-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 385px;
+    margin-right: 350px;
+    box-shadow:0 0 5px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #ffff;
+}
+
+input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 92%;
+    outline: none;
+    padding:10px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top:10px;
+}
+
+.btn-login{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    padding: 15px 0;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #1877f2;
+    color: white;
+}
+
+.forgot{
+    display: flex;
+    text-align: center;
+    margin: 15px 0;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 14px;
+}
+
+.forgot:hover{
+    text-decoration: underline;
+}
+
+hr{
+    margin: 5px 0;
+    opacity: 0.3;
+}
+
+.btn-create{
+    display: flex;
+    margin: 15px auto;
+    padding: 15px;
+    font-size: 17px;
+    border-radius: 6px;
+    line-height: 48px;
+    padding: 0 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #42b72a;
+    color: white;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+.below-text{
+    display: flex;
+    text-align: center;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.create-page{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin-right: 5px;
+
+}
+
+.create-page:hover{
+    text-decoration: underline;
+} 
