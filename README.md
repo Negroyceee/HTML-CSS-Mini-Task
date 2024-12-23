@@ -1,1 +1,1 @@
-# HTML-CSS-Mini-Task
+# HTML-CSS-JavaScript-Mini-Task
